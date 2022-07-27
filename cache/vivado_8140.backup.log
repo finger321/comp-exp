@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun May 15 21:44:06 2022
+# Process ID: 8140
+# Current directory: C:/Users/finger/Desktop/cache
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9472 C:\Users\finger\Desktop\cache\cache.xpr
+# Log file: C:/Users/finger/Desktop/cache/vivado.log
+# Journal file: C:/Users/finger/Desktop/cache\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/finger/Desktop/cache/cache.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2018.3/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'blk_mem_gen_0' is locked:
+* Current project part 'xc7a12ticsg325-1L' and the part 'xc7vx485tffg1157-1' used to customize the IP 'blk_mem_gen_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 690.305 ; gain = 83.840
+update_compile_order -fileset sources_1
+INFO: [Device 21-403] Loading part xc7a12ticsg325-1L
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+ERROR: [Common 17-69] Command failed: Unknown part 'xc7vx485tffg1157-1'
+ERROR: [IP_Flow 19-3329] update_bram_bits of meta parameter bram_bits failed. ERROR: [Common 17-69] Command failed: Unknown part 'xc7vx485tffg1157-1'
+
+ERROR: [IP_Flow 19-3332] Tcl error in configuring meta parameters procedures.
+ERROR: [IP_Flow 19-3428] Failed to create Customization object blk_mem_gen_0
+ERROR: [IP_Flow 19-4759] Unable to copy customizer for IP c:/Users/finger/Desktop/cache/.Xil/Vivado-8140-LAPTOP-NMF7S97L/coregen/blk_mem_gen_0/blk_mem_gen_0.xci
